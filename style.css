@@ -1,0 +1,22 @@
+html, body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+.circle {
+    position: absolute;
+    background-color: cornsilk;
+    border: 0.8rem solid red;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}
+img{
+    width:15vw;
+}
