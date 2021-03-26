@@ -1,22 +1,23 @@
 html, body {
     margin: 0;
-    overflow: hidden;
-}
-
-#container {
     width: 100vw;
-    height: 100vh;
+    height: 1000vh;
     background: linear-gradient(#e66465, #9198e5);
 }
 
-.circle {
-    position: absolute;
-    background-color: cornsilk;
-    border: 0.8rem solid red;
-    height: 5rem;
-    width: 5rem;
-    border-radius: 50%;
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
+
 img{
     width:15vw;
+}
+
+button {
+    font-family: Helvetica, sans-serif;
+    font-size: 3rem;
+    background-color: rgb(241, 202, 202);
+    border: none;
 }
